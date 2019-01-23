@@ -5,15 +5,13 @@ while i <= 100:
     if i % 2 == 0:
         print(i)
     i += 1
-
 2)
 num_1= input ("Enter first number:")
 num_2= int(input ("Enter second number:"))
 res = int(num_1) * num_2
-
 print("Result is:",res)
-
-3)def isPalindrome(s):
+3)
+def isPalindrome(s):
   rev = 'test'.join(reversed(s)) 
   if (s == rev): 
       return True
@@ -25,8 +23,8 @@ ans = isPalindrome(s)
     print("False") 
   else: 
     print("True")   
-
-4)def howMany(a , b):
+4)
+def howMany(a , b):
   counter = 0
   for x in a:
     if (x == b):
